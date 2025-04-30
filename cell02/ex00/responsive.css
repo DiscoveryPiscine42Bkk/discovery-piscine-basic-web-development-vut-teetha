@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+    width: 50%;
+}
+
+tr {
+    height: calc(100vh);
+    box-sizing: border-box;
+    /*The box-sizing forces the browser to include padding, 
+                        and borders, in the calculated height of the element.*/
+}
+
+#td_odd {
+    background-color: antiquewhite;
+}
+
+#td_even {
+    background-color: aqua;
+}
